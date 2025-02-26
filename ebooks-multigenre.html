@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./stylea.css">
+
+<title>Muti-Genre Ebooks</title>
+<style>
+
+
+
+
+</style>
+</head>
+
+<body>
+
+    <div class="nav">
+        <div class="logo">
+                <h2><span class="log1">eBooks</span><span class="log2">4sale</span></h2>
+               
+        </div>
+        <div class="hamburger" onclick="myFunction()">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+    
+        </div>
+    
+    
+        <div class="topnav" id="myTopnav">
+          <a href="./index.html">Home</a>
+
+          <!-- dropdpwn -->
+         
+          <div class="dropdown">
+            <button class="dropbtn">Ebooks 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="./ebooks.html">PDF Format</a>
+              <a href="./ebooks-epub.html">Epub Format</a>
+              <a href="./ebooks-multigenre.html" class="active">Multi-Genre</a>
+              
+            </div>
+          </div> 
+       
+          <!-- dropdown -->
+    
+          <a href="./promo.html" >Promo</a>
+          <a href="./about.html" >About Us</a>
+          <a href="./contact.html" >Contact Us</a>
+          <a href="./faq.html" >FAQ</a>
+         
+        </div>
+        </div>
+    
+
+        <div class="topnav2" id="myTopnav2">
+            <a href="./index.html">Home</a>
+
+             <!-- dropdpwn -->
+        
+          <div class="dropdown">
+            <button class="dropbtn">Ebooks 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="./ebooks.html">PDF Format</a>
+              <a href="./ebooks-epub.html">Epub Format</a>
+              <a href="./ebooks-multigenre.html" class="active">Multi-Genre</a>
+             
+            </div>
+          </div> 
+
+          <!-- dropdown -->
+          
+            <a href="./promo.html" >Promo</a>
+            <a href="./about.html" >About Us</a>
+            <a href="./contact.html" >Contact Us</a>
+            <a href="./faq.html" >FAQ</a>
+          </div>
+    
+
+
+ <!-- start -->
+
+
+
+<script>
+
+    hamburger = document.querySelector(".hamburger");
+    hamburger.onclick = function() {
+        topNav = document.querySelector(".topnav2");
+        topNav.classList.toggle("active");
+    }
+  
+  
+        function myFunction() {
+          var x = document.getElementById("myTopnav2");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        </script>
+  
+
+
+
+
+
+
+</body>
+</html>
